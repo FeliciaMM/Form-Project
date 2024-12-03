@@ -1,0 +1,75 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+@font-face {
+    font-family: 'Hussar';
+    src: url(./misc/HussarBoldWeb-bf92.woff);
+}
+
+body{
+    height: 100vh;
+    
+}
+
+.flex-container{
+    display: flex;
+}
+
+.form {
+    width: 70%;
+    height: 100vh;
+    background-color: rgba(255, 255, 255, 0.836);
+    
+ 
+}
+
+.image {
+    width: 30%;
+    height: 100vh;
+    background-image: url(./pictures/maxim-tajer-x3S1aGQNgro-unsplash.jpg);
+    background-size: cover;
+}
+
+.band{
+    font-family: 'Hussar';
+    font-size: larger;
+    background-color: rgb(255, 255, 255,0.4);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    
+}
+
+.band > img{
+    height: 100px;
+    width: 100px;
+    color-scheme: white;
+    margin-left: -20px;
+}
+
+.band > .logo-text{
+    margin-top: 10px;
+    text-align: center;
+    font-size: xx-large;
+}
+
+.cols{
+    display: flex;
+    gap: 20px;
+    background-color: rgb(255, 255, 255);
+    padding-bottom: 30px;
+    border-width: 3px;
+    border-style:groove;
+    border-color: rgba(255, 255, 255, 0.5);
+    margin-top: 40px;
+}
+
+p{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
