@@ -3,11 +3,6 @@
     margin: 0;
 }
 
-@font-face {
-    font-family: 'Hussar';
-    src: url(./misc/HussarBoldWeb-bf92.woff);
-}
-
 body{
     height: 100vh;
     
@@ -20,8 +15,7 @@ body{
 .form {
     width: 70%;
     height: 100vh;
-    background-color: rgba(255, 255, 255, 0.836);
-    
+    font-family:Georgia, 'Times New Roman', Times, serif;
  
 }
 
@@ -33,7 +27,8 @@ body{
 }
 
 .band{
-    font-family: 'Hussar';
+    margin-top: 150px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: larger;
     background-color: rgb(255, 255, 255,0.4);
     color: white;
@@ -58,18 +53,45 @@ body{
 }
 
 .cols{
+    font-family: Arial, Helvetica, sans-serif;
     display: flex;
     gap: 20px;
     background-color: rgb(255, 255, 255);
     padding-bottom: 30px;
     border-width: 3px;
-    border-style:groove;
-    border-color: rgba(255, 255, 255, 0.5);
-    margin-top: 40px;
+    box-shadow: 0 4px 6px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    transition: box-shadow 0.3s ease;
+    margin-top: 150px ;
+    margin-bottom: 40px;
+    font-size: 12px;
+}   
+
+button{
+    margin-left: 50px;
+    color: white;
+    border-style: none;
+    background-color: brown;
+    padding: 10px 50px;
+    border-radius: 5px;
+    margin-bottom: 30px;
 }
 
 p{
     margin-top: 20px;
     display: flex;
     flex-direction: column;
+    margin-left: 50px;
+    
+}
+
+.upper-text{
+    margin-top: 80px;
+    margin-left: 50px;
+    margin-right: 50px;
+    text-wrap:wrap;
+}
+
+.bottom-text{
+    margin-left: 50px;
+    
 }
