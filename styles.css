@@ -61,7 +61,7 @@ body{
     border-width: 3px;
     box-shadow: 0 4px 6px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
     transition: box-shadow 0.3s ease;
-    margin-top: 150px ;
+    margin-top: 80px ;
     margin-bottom: 40px;
     font-size: 12px;
 }   
@@ -94,4 +94,31 @@ p{
 .bottom-text{
     margin-left: 50px;
     
+}
+
+span{
+    font-weight:bold;
+    font-size: large;
+}
+
+label{
+    font-size: 11px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+}
+
+input{
+    border: 2px solid #E5E7EB;
+
+}
+
+input:focus{
+    box-shadow: 0 2px 2px 2px rgba(0, 0, 0, 0.051);
+    background: transparent;
+    border: 2px solid blue; 
+    outline: none;
+}
+
+input:invalid{
+    border: 2px solid red;
 }
